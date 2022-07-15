@@ -31,3 +31,6 @@ Nesse último exemplo citado, a implementação ficou (ver na class Client.java)
         System.out.println("Circle with border red and filled green");
         circleBorderRedAndFillGreen.draw();
 ```
+
+Referências:
+https://www.tutorialspoint.com/design_pattern/decorator_pattern.htm
