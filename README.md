@@ -1,4 +1,4 @@
-# designpatterns
+# Design Patterns - exemplos com Java
 Este projeto tem como objetivo exibir exemplos de implementação de design patterns.
 
 ## Decorator pattern
