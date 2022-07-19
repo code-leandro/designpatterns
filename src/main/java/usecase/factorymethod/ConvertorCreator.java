@@ -1,8 +1,8 @@
-package factorymethod;
+package usecase.factorymethod;
 
-import domain.video.Converter;
-import domain.video.MPEG4CompressionCodec;
-import domain.video.OggCompressionCodec;
+import usecase.domain.video.Converter;
+import usecase.domain.video.MPEG4CompressionCodec;
+import usecase.domain.video.OggCompressionCodec;
 
 public class ConvertorCreator {
 

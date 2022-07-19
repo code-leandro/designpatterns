@@ -1,9 +1,9 @@
 package infrastructure.video;
 
-import domain.port.SubsystemFilePort;
-import domain.video.FileVideo;
+import usecase.port.SubsystemFilePort;
+import usecase.domain.video.FileVideo;
 
-public class SubsystemVideo implements SubsystemFilePort {
+public class SubsystemVideoAdapter implements SubsystemFilePort {
 
     @Override
     public void exportFile(FileVideo fileVideo) {

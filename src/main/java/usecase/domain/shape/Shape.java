@@ -1,4 +1,4 @@
-package domain.shape;
+package usecase.domain.shape;
 
 public interface Shape {
     void draw();

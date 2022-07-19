@@ -1,6 +1,6 @@
-package domain.port;
+package usecase.port;
 
-import domain.video.FileVideo;
+import usecase.domain.video.FileVideo;
 
 public interface SubsystemFilePort {
     void exportFile(FileVideo fileVideo);

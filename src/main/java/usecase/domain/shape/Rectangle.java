@@ -1,4 +1,4 @@
-package domain.shape;
+package usecase.domain.shape;
 
 public class Rectangle implements Shape {
 

@@ -1,7 +1,7 @@
-package strategy;
+package usecase.strategy;
 
-import domain.tax.CalculateTax;
-import factorymethod.TaxCreator;
+import usecase.domain.tax.CalculateTax;
+import usecase.factorymethod.TaxCreator;
 
 import java.math.BigDecimal;
 

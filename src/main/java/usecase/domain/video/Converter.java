@@ -1,4 +1,4 @@
-package domain.video;
+package usecase.domain.video;
 
 public abstract class Converter {
 

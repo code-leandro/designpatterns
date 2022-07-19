@@ -1,4 +1,4 @@
-package facade;
+package usecase.facade;
 
 public class Client {
 

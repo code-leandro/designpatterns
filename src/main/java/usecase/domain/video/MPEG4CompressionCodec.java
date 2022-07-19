@@ -1,4 +1,4 @@
-package domain.video;
+package usecase.domain.video;
 
 public class MPEG4CompressionCodec extends Converter {
 

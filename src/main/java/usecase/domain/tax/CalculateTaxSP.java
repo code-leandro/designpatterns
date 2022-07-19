@@ -1,4 +1,4 @@
-package domain.tax;
+package usecase.domain.tax;
 
 import java.math.BigDecimal;
 
