@@ -1,7 +1,7 @@
 package infrastructure.video;
 
 import usecase.port.SubsystemFilePort;
-import usecase.domain.video.FileVideo;
+import domain.video.FileVideo;
 
 public class SubsystemVideoAdapter implements SubsystemFilePort {
 

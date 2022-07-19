@@ -1,8 +1,8 @@
 package usecase.facade;
 
 import usecase.port.SubsystemFilePort;
-import usecase.domain.video.Converter;
-import usecase.domain.video.FileVideo;
+import domain.video.Converter;
+import domain.video.FileVideo;
 import usecase.factorymethod.ConvertorCreator;
 
 public class VideoConverter {

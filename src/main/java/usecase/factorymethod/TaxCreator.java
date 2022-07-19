@@ -1,8 +1,8 @@
 package usecase.factorymethod;
 
-import usecase.domain.tax.CalculateTax;
-import usecase.domain.tax.CalculateTaxMG;
-import usecase.domain.tax.CalculateTaxSP;
+import domain.tax.CalculateTax;
+import domain.tax.CalculateTaxMG;
+import domain.tax.CalculateTaxSP;
 
 public class TaxCreator {
 

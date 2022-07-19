@@ -1,4 +1,4 @@
-package usecase.domain.shape;
+package domain.shape;
 
 public class Circle implements Shape{
 

@@ -1,6 +1,6 @@
 package usecase.decorator;
 
-import usecase.domain.shape.Shape;
+import domain.shape.Shape;
 
 abstract public class ShapeDecorator implements Shape {
 

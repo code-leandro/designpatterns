@@ -1,8 +1,8 @@
 package usecase.decorator;
 
-import usecase.domain.shape.Circle;
-import usecase.domain.shape.Rectangle;
-import usecase.domain.shape.Shape;
+import domain.shape.Circle;
+import domain.shape.Rectangle;
+import domain.shape.Shape;
 
 public class Client {
 

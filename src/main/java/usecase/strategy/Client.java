@@ -1,6 +1,6 @@
 package usecase.strategy;
 
-import usecase.domain.tax.CalculateTax;
+import domain.tax.CalculateTax;
 import usecase.factorymethod.TaxCreator;
 
 import java.math.BigDecimal;
