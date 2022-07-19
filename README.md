@@ -31,3 +31,16 @@ Nesse último exemplo citado, a implementação ficou (ver na class Client.java)
         System.out.println("Circle with border red and filled green");
         circleBorderRedAndFillGreen.draw();
 ```
+
+## Facade pattern
+
+É natural em alguns sistemas termos um determinado desafio a resolver: a partir de uma operação, é necessário realizar 
+uma sequência de passos que envolvem a chamada de diversos services ou de até mesmo subsistemas para concluir tal operação.
+
+Uma forma de padrão de projeto pra resolver esse problema é utilizando o pattern `Facade`.
+
+É um padrão de projeto estrutural que fornece uma simplificação ou encapsulamento para chamada de 
+bibliotecas, frameworks, ou qualquer conjunto complexo de classes.
+
+
+

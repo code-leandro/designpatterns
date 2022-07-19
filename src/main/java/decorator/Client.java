@@ -1,5 +1,9 @@
 package decorator;
 
+import domain.shape.Circle;
+import domain.shape.Rectangle;
+import domain.shape.Shape;
+
 public class Client {
 
     public static void main(String[] args) {

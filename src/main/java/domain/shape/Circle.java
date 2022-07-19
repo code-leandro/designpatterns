@@ -1,4 +1,4 @@
-package decorator;
+package domain.shape;
 
 public class Circle implements Shape{
 

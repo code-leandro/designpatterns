@@ -1,4 +1,4 @@
-package decorator;
+package domain.shape;
 
 public class Rectangle implements Shape {
 

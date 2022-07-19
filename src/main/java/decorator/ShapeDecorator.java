@@ -1,6 +1,8 @@
 package decorator;
 
-public class ShapeDecorator implements Shape {
+import domain.shape.Shape;
+
+abstract public class ShapeDecorator implements Shape {
 
     protected Shape decoratorShape;
 

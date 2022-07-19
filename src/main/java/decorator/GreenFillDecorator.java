@@ -1,5 +1,7 @@
 package decorator;
 
+import domain.shape.Shape;
+
 public class GreenFillDecorator extends ShapeDecorator {
 
     public GreenFillDecorator(Shape decoratorShape) {
