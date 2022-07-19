@@ -25,11 +25,19 @@ Assim, é possível ter círculo com "comportamento" borda vermelha. E um retân
 Nesse último exemplo citado, a implementação ficou (ver na class Client.java):
 
 ```java
-        Shape circle = new Circle();
-        Shape circleBorderRed = new RedShapeDecorator(circle);
-        Shape circleBorderRedAndFillGreen = new GreenFillDecorator(circleBorderRed);
-        System.out.println("Circle with border red and filled green");
-        circleBorderRedAndFillGreen.draw();
+Shape circle = new Circle();
+Shape circleBorderRed = new RedShapeDecorator(circle);
+Shape circleBorderRedAndFillGreen = new GreenFillDecorator(circleBorderRed);
+System.out.println("Circle with border red and filled green");
+circleBorderRedAndFillGreen.draw();
+```
+
+Resultado:
+```
+Circle with border red and filled green
+Shape: circle
+Border Color: Red
+Fill color: Green
 ```
 
 ## Facade pattern
@@ -43,4 +51,5 @@ Uma forma de padrão de projeto pra resolver esse problema é utilizando o patte
 bibliotecas, frameworks, ou qualquer conjunto complexo de classes.
 
 
-
+Referências:
+https://www.tutorialspoint.com/design_pattern/decorator_pattern.htm
